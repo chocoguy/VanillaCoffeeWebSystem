@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="257662f7-b691-4abb-bc39-3070431dd6b2" ChangeDateTime="11/30/2025 20:43:49">
+    <Property Name="ElementName" Value="[dbo].[Season].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Season]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SeasonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98b91052-1fa9-4107-9f68-dee23c4ff7f4" ChangeDateTime="11/30/2025 20:45:45">
+    <Property Name="ElementName" Value="[dbo].[MediaType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MediaType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MediaTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f615d617-1ea8-4b05-a521-5699d3014985" ChangeDateTime="11/30/2025 20:46:35">
+    <Property Name="ElementName" Value="[dbo].[AirDay].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AirDay]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AirDayId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42139518-4141-4051-b991-fe12f3e06800" ChangeDateTime="11/30/2025 20:47:46">
+    <Property Name="ElementName" Value="[dbo].[OriginalSource].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OriginalSource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OriginalSourceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4d2263ca-e87b-421f-8f52-841e63fd296f" ChangeDateTime="11/30/2025 20:48:39">
+    <Property Name="ElementName" Value="[dbo].[WatchStatus].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchStatus]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WatchStatusId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="25acc45e-511d-49e9-b21a-5b4e2a38b9fd" ChangeDateTime="11/30/2025 20:49:50">
+    <Property Name="ElementName" Value="[dbo].[Anime].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Anime]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AnimeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4afc2978-25fd-46c9-85bd-ff92cbea97ef" ChangeDateTime="11/30/2025 21:11:00">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TrackedAnimeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7212021d-ca26-4c36-a967-ace141c25c55" ChangeDateTime="11/30/2025 21:11:53">
+    <Property Name="ElementName" Value="[dbo].[User].[TrackedAnimeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6ee0fb10-2463-4bf9-90f2-fc0fac4a1217" ChangeDateTime="11/30/2025 21:16:17">
+    <Property Name="ElementName" Value="[dbo].[TrackedAnime].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TrackedAnime]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TrackedAnimeId" />
+  </Operation>
+</Operations>

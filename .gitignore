@@ -4,3 +4,4 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 /WebApi/appsettings.Development.json
+.vs

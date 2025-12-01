@@ -1,6 +1,7 @@
+using Data.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.HttpOverrides;
-using Npgsql;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,17 +20,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
 
-builder.Services.Configure<PostgresDb>(builder.Configuration.GetSection("Postgres"));
 
-var dataSourceBuilder = new NpgsqlDataSourceBuilder(connString);
-
-
-var dataSource = dataSourceBuilder.Build();
-
-
-dataSource = dataSource.
-
-builder.Services.AddSingleton<NpgsqlDataSource>(dataSource);
+builder.Services.AddDbContext<AniTrakContext>(options => options.UseSqlServer(builder.Configuration["Default"]));
 
 
 var app = builder.Build();
