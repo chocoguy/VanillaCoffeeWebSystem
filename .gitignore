@@ -5,3 +5,5 @@ riderModule.iml
 /_ReSharper.Caches/
 /WebApi/appsettings.Development.json
 .vs
+/Database/Database.dbmdl
+/Database/Database.jfm
