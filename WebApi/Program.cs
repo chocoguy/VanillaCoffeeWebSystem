@@ -24,6 +24,8 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<AniTrakContext>(options => options.UseSqlServer(builder.Configuration["Default"]));
 
 
+
+
 var app = builder.Build();
 
 app.UseCors("AllowAll");
